@@ -112,13 +112,13 @@ nav div a {
 }
 
 .header img {
-    width: 100vw;
-    height: 50vh;
     position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70%;
     z-index: -1;
-    margin-top: 5rem;
-    image-orientation: flip;
-    
+    margin-top: 2rem;
 }
 
 .contents {
@@ -128,7 +128,9 @@ nav div a {
     align-items: center;
     flex-direction: column;
     min-height: 70vh;
-}
+     color:#ffffff;
+     font-weight: bolder;
+ }
 .contents p{
     font-weight:bolder;
     font-size: larger;
@@ -141,7 +143,13 @@ nav div a {
     font-size: 20px;
     margin: 1rem 0;
 }
-
+.feature h2{
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
 
 
 .card {
@@ -149,6 +157,9 @@ nav div a {
     background-color: rgb(155, 167, 50);
     width: 320px;
 
+
+}
+.card1 img{
 
 }
 
