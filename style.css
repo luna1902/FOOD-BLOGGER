@@ -4,37 +4,7 @@
   padding: 0;
   margin: 0;
 }
-@media (max-width :1020px){
-    .header:img{
-        width:50%;
-    }
-    .navbar-navig a {
-        letter-spacing: 0.025;
-        font-weight: 75;
-        color: black;
-        display:list-item;
-        text-decoration: double;
-        padding: 0.25rem;
-     word-spacing: 0.025px;
-     justify-content: space-evenly;
-    }
-     
-    
-    .navbar-navig {
-        width: 5%;
-      }
-      .subscribe {
-      
-        width: 1%;
-        height: 5px;
-        font-size: 0.005pt;
-      }
-      .navbar-brand {
-        font-size :0.00001px;
-       
-      }
 
-}
 .body {
   font-family: "Montserrat", sans-serif;
 }
@@ -95,7 +65,8 @@
 }
 
 .navbar-navig a:hover {
-  color: rgb(235, 222, 222);
+  color: rgb(170, 169, 169);
+  transition-delay: 0.2s;
 }
 
 .search button {
@@ -180,32 +151,14 @@
     box-shadow: 1px 1px 1px #fdfdfd;
 }
 .feature h2 {
+  padding: 0 1rem;
   margin-top: 5rem;
   margin-bottom: 2.5rem;
   font-family: "Cormorant", serif;
   font-weight: bold;
   font-size: 40px;
 }
-.feature button{
-    font-family: 'Raleway', sans-serif;
-    display: inline-block;
-  border-radius: 1px;
-  border: none;
-  font-size: 15px;
-  transition: all 0.3s;
-  cursor:pointer;
- 
-}
-.latest button{
-    font-family: 'Raleway', sans-serif;
-    display: inline-block;
-  border-radius: 1px;
-  border: none;
-  font-size: 15px;
-  transition: all 0.3s;
-  cursor:pointer;
- 
-}
+
 .card {
   height: 420px;
   background-color: rgb(223, 225, 226);
@@ -315,5 +268,53 @@
    font-family: "Cormorant", serif;
   font-weight: bold;
   font-size: 40px;
-
+padding: 0rem 1rem;
 }
+.btn-pg2{
+  background-color: rgb(63, 62, 62);
+  color:#fff;
+width:6rem;
+height: 35px;  
+font-family: 'Raleway', sans-serif;
+display: inline-block;
+border: none;
+font-size: 15px;
+transition: all 0.3s;
+cursor:pointer;
+border-radius: 5px;
+}
+@media screen and (max-width :560px){
+.banner-title{
+  font-size: 3rem;
+}
+}
+@media screen and (max-width :1020px){
+  .header:img{
+      width:50%;
+  }
+  .navbar-navig a {
+      letter-spacing: 0.025;
+      font-weight: 75;
+      color: black;
+      display:list-item;
+      text-decoration: double;
+      padding: 0.25rem;
+   word-spacing: 0.025px;
+   justify-content: space-evenly;
+  }
+   
+  
+  .navbar-navig {
+      width: 5%;
+    }
+    .subscribe {
+    
+      width: 1%;
+      height: 5px;
+      font-size: 0.005pt;
+    }
+    .navbar-brand {
+      font-size :0.00001px;
+     
+    }
+  }
