@@ -4,33 +4,35 @@
     flex-direction: column;
     align-items: center;
     margin: 0;
-
+    background-color: rgb(239, 243, 245);
     width: 100vw;
 }
-
+.body{
+    color:rgb(239, 243, 245); 
+}
 .nav-bar {
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
-}
-
-.navbar-brand {
+  }
+  
+  .navbar-brand {
     text-decoration: none;
     color: #000;
     font-size: 20px;
-}
-
-.navbar-navig {
+  }
+  
+  .navbar-navig {
     display: flex;
     text-align: center;
     justify-content: space-between;
     width: 35%;
     list-style-type: none;
-}
-
-.navbar-navig a {
+  }
+  
+  .navbar-navig a {
     text-transform: uppercase;
-    font-family: 'Alkalami', serif;
+    font-family: "Alkalami", serif;
     letter-spacing: 1px;
     font-weight: 500;
     color: black;
@@ -39,18 +41,59 @@
     padding: 0.4rem 0.1rem;
     letter-spacing: 3px;
     word-spacing: 4px;
-}
+  }
+  
+  .navbar-navig a:hover {
+    color: rgb(252, 247, 247);
+  }
 
-.navbar-navig a:hover {
-    color: rgb(235, 222, 222);
-}
 .header-content{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    line-height: 1.5;
 
+}
 
+.search button {
+    background: transparent;
+    border: 1px ;
+    font-size: 20px;
+    width: 2px;
+    
+  }
+  .search button:hover{
+      cursor: pointer;
+      background-color: rgb(249, 251, 253);
+  }
+  
+  .search input {
+    height: 30px;
+    
+  }
+  
+  .subscribe {
+    background: transparent;
+    width: 9rem;
+    height: 35px;
+    font-size: 18px;
+    border: 1px solid rgb(186,186,186);
+  
+  }
+  .subscribe:hover{
+      cursor: pointer;
+      box-shadow: 1px 1px 1px #888888;
+      
+      background-color: rgb(249, 251, 253);
+  }  
+.header-content h2{
+    font-family: "Cormorant", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.recipe h4{
+margin-left: 2rem;
 }
 .header-content p{
     width: 80%;
@@ -61,10 +104,57 @@
     height: 400px;
     
 }
+@media (max-width :1020px){
+    .header-content p{
+        width: 90%;
+        padding: 0.5rem 1rem;
+    }
+    .blog-img{
+        height: 300px;
+    }
+    .recipe h4{
+        margin-left: 10rem;
+    }
+    .navbar-navig a {
+        letter-spacing: 0.025;
+        font-weight: 75;
+        color: black;
+        display:list-item;
+        text-decoration: double;
+        padding: 0.25rem;
+     word-spacing: 0.025px;
+     justify-content: space-evenly;
+    }
+     .search button {
+        background: transparent;
+        border: 0.25px;
+        font: size 10px:
+        width: 0.5px;
+    } */
+    .search input {
+        height: 0.5px;
+        
+    }
+    .navbar-navig {
+        width: 10%;
+      }
+      .subscribe {
+      
+        width: 1%;
+        height: 5px;
+        font-size: 0.005pt;
+      }
+      .navbar-brand {
+        font-size :10px;
+       
+      }
+
+}
+
 .footer-basic {
     padding: 40px 0;
-    background-color: #ffffff;
-    color: #4b4c4d;
+    background-color: rgb(223, 225, 226);
+    color: #3d3f41;
 }
 
 .footer-basic ul {
